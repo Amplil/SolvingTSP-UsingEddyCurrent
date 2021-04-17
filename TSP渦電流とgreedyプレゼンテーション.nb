@@ -1,0 +1,291 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10785,        283]
+NotebookOptionsPosition[      8836,        233]
+NotebookOutlinePosition[     10133,        270]
+CellTagsIndexPosition[     10056,        265]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["", "SlideShowNavigationBar", "FirstSlide",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"5155fa8d-a235-408c-afea-2cbb5d38142e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Graphics", "[", 
+   RowBox[{"{", 
+    RowBox[{"Blue", ",", 
+     RowBox[{"PointSize", "[", "0.05", "]"}], ",", 
+     RowBox[{"Point", "[", "Pin", "]"}], ",", "White", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Text", "[", 
+        RowBox[{
+         RowBox[{"Style", "[", 
+          RowBox[{"i", ",", 
+           RowBox[{"FontSize", "\[Rule]", "15"}]}], "]"}], ",", 
+         RowBox[{"Pin", "[", 
+          RowBox[{"[", "i", "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", 
+         RowBox[{"Length", "[", "Pin", "]"}]}], "}"}]}], "]"}]}], 
+    "\[IndentingNewLine]", "}"}], "]"}], 
+  RowBox[{
+  "(*", " ", 
+   "\:96fb\:6d41\:5024\:306e\:6b63\:8ca0\:3092\:30b0\:30e9\:30d5\:306e\:5411\
+\:304d\:306b\:53cd\:6620\:3057\:305f\:51fa\:529b\:30b0\:30e9\:30d5\:306e\:5e7e\
+\:4f55\:5b66\:8868\:793a", " ", "*)"}]}]], "Input",
+ CellChangeTimes->{{3.742967941572197*^9, 3.742967995072294*^9}, {
+   3.7430586864989567`*^9, 3.743058701392766*^9}, {3.743058747900301*^9, 
+   3.74305874793581*^9}, {3.745023556632114*^9, 3.7450235587354727`*^9}, 
+   3.74669809274428*^9, {3.746698130468809*^9, 3.746698172788084*^9}, {
+   3.746704276466721*^9, 3.7467042845273647`*^9}, 3.746704344026986*^9, {
+   3.746704412924809*^9, 3.746704452677435*^9}, {3.746704625393219*^9, 
+   3.746704664818771*^9}, 3.754290243208327*^9, {3.754291266316243*^9, 
+   3.7542912880502005`*^9}, 3.7542915370775847`*^9, {3.7542918275352864`*^9, 
+   3.7542918276446*^9}, {3.771894371364978*^9, 3.7718944008856826`*^9}},
+ CellLabel->
+  "In[573]:=",ExpressionUUID->"640ddafb-9ad0-4553-a5bc-1edc3ebb95c1"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0, 0, 1], PointSize[0.05], 
+   PointBox[{{3.30204, 9.09128}, {3.30442, 0.46863}, {9.01646, 6.24185}, {
+    9.31342, 1.24199}, {6.10577, 2.96787}, {5.75196, 4.97666}, {3.32525, 
+    5.95897}, {1.84868, 1.18248}, {7.3017, 7.41784}, {4.80162, 2.52861}}], 
+   {GrayLevel[1], InsetBox[
+     StyleBox["1",
+      StripOnInput->False,
+      FontSize->15], {3.30204, 9.09128}], InsetBox[
+     StyleBox["2",
+      StripOnInput->False,
+      FontSize->15], {3.30442, 0.46863}], InsetBox[
+     StyleBox["3",
+      StripOnInput->False,
+      FontSize->15], {9.01646, 6.24185}], InsetBox[
+     StyleBox["4",
+      StripOnInput->False,
+      FontSize->15], {9.31342, 1.24199}], InsetBox[
+     StyleBox["5",
+      StripOnInput->False,
+      FontSize->15], {6.10577, 2.96787}], InsetBox[
+     StyleBox["6",
+      StripOnInput->False,
+      FontSize->15], {5.75196, 4.97666}], InsetBox[
+     StyleBox["7",
+      StripOnInput->False,
+      FontSize->15], {3.32525, 5.95897}], InsetBox[
+     StyleBox["8",
+      StripOnInput->False,
+      FontSize->15], {1.84868, 1.18248}], InsetBox[
+     StyleBox["9",
+      StripOnInput->False,
+      FontSize->15], {7.3017, 7.41784}], InsetBox[
+     StyleBox["10",
+      StripOnInput->False,
+      FontSize->15], {4.80162, 2.52861}]}},
+  ImageSize->{326.1, Automatic}]], "Output",
+ CellChangeTimes->{3.771894348674297*^9, 3.7718944023515882`*^9},
+ CellLabel->
+  "Out[573]=",ExpressionUUID->"3c840218-68ad-4766-9624-9a33bca77d34"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"a54997a0-fb43-4738-abf4-f21c4ebfa72d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Show", "[", 
+  RowBox[{
+   GraphicsBox[
+    LineBox[{{3.30442, 0.46863}, {1.84868, 1.18248}, {3.32525, 5.95897}, {
+     5.75196, 4.97666}, {6.10577, 2.96787}, {4.80162, 2.52861}, {3.30442, 
+     0.46863}}],
+    ImageSize->{111.64054392346452`, Automatic}], ",", 
+   GraphicsBox[
+    LineBox[{{3.30204, 9.09128}, {7.3017, 7.41784}, {9.01646, 6.24185}, {
+     9.31342, 1.24199}, {4.80162, 2.52861}, {3.30442, 0.46863}, {1.84868, 
+     1.18248}, {3.32525, 5.95897}, {3.30204, 9.09128}}],
+    ImageSize->{125., Automatic}], ",", 
+   GraphicsBox[
+    LineBox[{{3.30204, 9.09128}, {7.3017, 7.41784}, {9.01646, 6.24185}, {
+     6.10577, 2.96787}, {4.80162, 2.52861}, {3.30442, 0.46863}, {1.84868, 
+     1.18248}, {3.32525, 5.95897}, {3.30204, 9.09128}}],
+    ImageSize->{136., Automatic}], ",", 
+   GraphicsBox[
+    {RGBColor[0, 0, 1], PointSize[0.05], 
+     PointBox[{{3.30204, 9.09128}, {3.30442, 0.46863}, {9.01646, 6.24185}, {
+      9.31342, 1.24199}, {6.10577, 2.96787}, {5.75196, 4.97666}, {3.32525, 
+      5.95897}, {1.84868, 1.18248}, {7.3017, 7.41784}, {4.80162, 2.52861}}], 
+     {GrayLevel[1], InsetBox[
+       StyleBox["1",
+        StripOnInput->False,
+        FontSize->15], {3.30204, 9.09128}], InsetBox[
+       StyleBox["2",
+        StripOnInput->False,
+        FontSize->15], {3.30442, 0.46863}], InsetBox[
+       StyleBox["3",
+        StripOnInput->False,
+        FontSize->15], {9.01646, 6.24185}], InsetBox[
+       StyleBox["4",
+        StripOnInput->False,
+        FontSize->15], {9.31342, 1.24199}], InsetBox[
+       StyleBox["5",
+        StripOnInput->False,
+        FontSize->15], {6.10577, 2.96787}], InsetBox[
+       StyleBox["6",
+        StripOnInput->False,
+        FontSize->15], {5.75196, 4.97666}], InsetBox[
+       StyleBox["7",
+        StripOnInput->False,
+        FontSize->15], {3.32525, 5.95897}], InsetBox[
+       StyleBox["8",
+        StripOnInput->False,
+        FontSize->15], {1.84868, 1.18248}], InsetBox[
+       StyleBox["9",
+        StripOnInput->False,
+        FontSize->15], {7.3017, 7.41784}], InsetBox[
+       StyleBox["10",
+        StripOnInput->False,
+        FontSize->15], {4.80162, 2.52861}]}},
+    ImageSize->{158.10000000000002`, Automatic}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.771245272895253*^9, 3.771245287356579*^9}, {
+   3.771247262988604*^9, 3.771247268438738*^9}, {3.771247656520322*^9, 
+   3.771247658085026*^9}, 3.7712478955054893`*^9, {3.7718945301251216`*^9, 
+   3.771894531447036*^9}, {3.771894646329393*^9, 3.7718946477773457`*^9}, 
+   3.771894709691786*^9},
+ CellLabel->
+  "In[575]:=",ExpressionUUID->"df25c97b-0c33-4253-a0ad-d717d719082f"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   LineBox[{{3.30442, 0.46863}, {1.84868, 1.18248}, {3.32525, 5.95897}, {
+    5.75196, 4.97666}, {6.10577, 2.96787}, {4.80162, 2.52861}, {3.30442, 
+    0.46863}}], 
+   LineBox[{{3.30204, 9.09128}, {7.3017, 7.41784}, {9.01646, 6.24185}, {
+    9.31342, 1.24199}, {4.80162, 2.52861}, {3.30442, 0.46863}, {1.84868, 
+    1.18248}, {3.32525, 5.95897}, {3.30204, 9.09128}}], 
+   LineBox[{{3.30204, 9.09128}, {7.3017, 7.41784}, {9.01646, 6.24185}, {
+    6.10577, 2.96787}, {4.80162, 2.52861}, {3.30442, 0.46863}, {1.84868, 
+    1.18248}, {3.32525, 5.95897}, {3.30204, 9.09128}}], 
+   {RGBColor[0, 0, 1], PointSize[0.05], 
+    PointBox[{{3.30204, 9.09128}, {3.30442, 0.46863}, {9.01646, 6.24185}, {
+     9.31342, 1.24199}, {6.10577, 2.96787}, {5.75196, 4.97666}, {3.32525, 
+     5.95897}, {1.84868, 1.18248}, {7.3017, 7.41784}, {4.80162, 2.52861}}], 
+    {GrayLevel[1], InsetBox[
+      StyleBox["1",
+       StripOnInput->False,
+       FontSize->15], {3.30204, 9.09128}], InsetBox[
+      StyleBox["2",
+       StripOnInput->False,
+       FontSize->15], {3.30442, 0.46863}], InsetBox[
+      StyleBox["3",
+       StripOnInput->False,
+       FontSize->15], {9.01646, 6.24185}], InsetBox[
+      StyleBox["4",
+       StripOnInput->False,
+       FontSize->15], {9.31342, 1.24199}], InsetBox[
+      StyleBox["5",
+       StripOnInput->False,
+       FontSize->15], {6.10577, 2.96787}], InsetBox[
+      StyleBox["6",
+       StripOnInput->False,
+       FontSize->15], {5.75196, 4.97666}], InsetBox[
+      StyleBox["7",
+       StripOnInput->False,
+       FontSize->15], {3.32525, 5.95897}], InsetBox[
+      StyleBox["8",
+       StripOnInput->False,
+       FontSize->15], {1.84868, 1.18248}], InsetBox[
+      StyleBox["9",
+       StripOnInput->False,
+       FontSize->15], {7.3017, 7.41784}], InsetBox[
+      StyleBox["10",
+       StripOnInput->False,
+       FontSize->15], {4.80162, 2.52861}]}}},
+  ImageSize->{594.6405439234645, Automatic}]], "Output",
+ CellChangeTimes->{3.771894547974723*^9, 3.7718946488113956`*^9},
+ CellLabel->
+  "Out[575]=",ExpressionUUID->"560d4088-79b2-49d4-8868-c89f342b0ed1"]
+}, Open  ]]
+}, Open  ]]
+},
+ScreenStyleEnvironment->"Slideshow Working",
+WindowSize->{1857, 1057},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+TaggingRules->{
+ "PresenterSettings" -> {
+   "ShowToolbar" -> True, "ShowNavigationBar" -> False, 
+    "SlideBreakStyles" -> {}, "ShowSlideBreaks" -> True, 
+    "Theme" -> {
+     "ThemeName" -> "Default", "FontSetName" -> "Default", "ColorSetName" -> 
+      "Default"}, "WindowSize" -> {1920, 1080}, 
+    "WindowMargins" -> {{0, -63}, {0, 0}}, 
+    "PresenterToolsSlideshowPresentationToolbar" -> True, 
+    "PresenterToolsPresentationToolbar" -> False}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (2018\:5e743\:670812\
+\:65e5)",
+StyleDefinitions->FrontEnd`FileName[{"PresenterTools"}, "Default.nb", 
+  CharacterEncoding -> "UTF-8"],
+"Theme" -> "Default"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 136, 2, 63, "SlideShowNavigationBar",ExpressionUUID->"5155fa8d-a235-408c-afea-2cbb5d38142e",
+   CellTags->"SlideShowHeader"],
+  Cell[3919, 111, 122, 2, 63, "SlideShowNavigationBar",ExpressionUUID->"a54997a0-fb43-4738-abf4-f21c4ebfa72d",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 9746, 257}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 136, 2, 63, "SlideShowNavigationBar",ExpressionUUID->"5155fa8d-a235-408c-afea-2cbb5d38142e",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[741, 28, 1640, 35, 292, "Input",ExpressionUUID->"640ddafb-9ad0-4553-a5bc-1edc3ebb95c1"],
+Cell[2384, 65, 1486, 40, 428, "Output",ExpressionUUID->"3c840218-68ad-4766-9624-9a33bca77d34"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3919, 111, 122, 2, 63, "SlideShowNavigationBar",ExpressionUUID->"a54997a0-fb43-4738-abf4-f21c4ebfa72d",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[4066, 117, 2631, 61, 285, "Input",ExpressionUUID->"df25c97b-0c33-4253-a0ad-d717d719082f"],
+Cell[6700, 180, 2108, 49, 735, "Output",ExpressionUUID->"560d4088-79b2-49d4-8868-c89f342b0ed1"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
